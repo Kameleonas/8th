@@ -1,0 +1,53 @@
+html{
+    height: 95vh;
+    width: 100%;
+}
+body{
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    flex-wrap: nowrap;
+}
+header{
+    height: 20vh;
+    width: 70%;
+    border: dotted 2px black;
+}
+.firstWrap{
+    width: 84.3%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+}
+.sideMenu{
+    height: 70vh;
+    width: 15%;
+    border: dotted 2px black;
+    align-self: flex-start;
+}
+.menu{
+    height: 50vh;
+    width: 85%;
+    border: dotted 2px black;
+}
+main{
+    margin-top: -20.5vh;
+    height: 70.5vh;
+    width: 20%;
+    border: dotted 2px black;
+}
+footer{
+    height: 19vh;
+    width: 73.5%;
+    margin-left: 10.6%;
+    border: dotted 2px black;
+    position: absolute;
+    align-self: flex-end;
+}
+/* .end{
+    height: 10%;
+    width: 70%;
+    border: dotted 2px black;
+} */
