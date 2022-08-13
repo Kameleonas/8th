@@ -10,6 +10,12 @@ body{
     margin: auto;
     flex-wrap: nowrap;
 }
+
+header,div,main,footer{
+    text-align: center;
+    font-size: 2rem;
+}
+
 header{
     height: 20vh;
     width: 70%;
@@ -39,15 +45,11 @@ main{
     border: dotted 2px black;
 }
 footer{
-    height: 19vh;
+    height: 19.5vh;
     width: 73.5%;
     margin-left: 10.6%;
     border: dotted 2px black;
     position: absolute;
     align-self: flex-end;
+    transform: translateY(.4vh);
 }
-/* .end{
-    height: 10%;
-    width: 70%;
-    border: dotted 2px black;
-} */
